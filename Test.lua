@@ -1,25 +1,3 @@
-if not game:IsLoaded() then 
-
-    repeat game.Loaded:wait(0.2) 
-
-        wait(10)
-
-    until game:IsLoaded() 
-
-end
-
-PlaceID = game.PlaceId
-
-if PlaceID == 6329844902 then
-
-    
-
-else
-
-    game.Players.LocalPlayer:Kick("à¸šà¸´à¸™à¹„à¸›à¸™à¸­à¸à¹‚à¸¥à¸à¹„à¸›")
-
-end
-
 -----------------------------------------
 
 	do  local ui =  game:GetService("CoreGui"):FindFirstChild("redui")  if ui then ui:Destroy() end end
